@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#container {
+    text-align: center;
+}
+
+#output {
+    margin-top: 20px;
+    font-size: 18px;
+    min-height: 50px;
+    transition: opacity 0.5s;
+}
+
+.success {
+    color: green;
+    opacity: 1;
+}
+
+.error {
+    color: red;
+    opacity: 1;
+}
+
+#image, #guard {
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+    transition: opacity 0.5s;
+}
